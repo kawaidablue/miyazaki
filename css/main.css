@@ -1,0 +1,370 @@
+@charset "UTF-8";
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 100%;
+  font-weight: 100;
+}
+
+body {
+  background-color: #000000;
+  color: #fff;
+}
+
+.green {
+  font-weight: bold;
+  color: #90c248;
+  opacity: 0.95;
+}
+
+.__inner {
+  max-width: 67.5rem;
+  margin: 0 auto;
+  width: 95%;
+}
+
+.header {
+  position: relative;
+}
+
+.header-wrap {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 2000;
+  width: 100%;
+  background-color: #000000;
+}
+
+.header-wrap__logo {
+  display: flex;
+  align-self: center;
+  font-size: 1.4375rem;
+  line-height: 1.5625rem;
+  padding: 0 2% 0.5%;
+  gap: 0.625rem;
+}
+
+.header-wrap__logo__txt {
+  display: flex;
+  align-items: center;
+}
+.header-wrap__logo__txt {
+  width: 200px;
+  padding: 5px 0;
+}
+.header-wrap__logo__txt img {
+  width: 100%;
+}
+.header-wrap__logo__icon {
+  align-self: flex-start;
+  background-image: url(../img/header_logo.svg);
+  -o-object-fit: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.header-wrap__logo__icon img {
+  display: block;
+  width: 100%;
+  mix-blend-mode: screen;
+  opacity: 0.5;
+}
+
+.header-wrap__logo__txt p span {
+  font-size: 1.875rem;
+  line-height: 2rem;
+}
+
+.header-wrap__nav {
+  display: flex;
+  align-items: center;
+  gap: 3.125rem;
+  padding: 0 2%;
+}
+
+.header-wrap__nav__list {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  font-size: 1.25rem;
+  line-height: 1.375rem;
+}
+
+.header-wrap__nav__list__list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #36454f;
+  text-align: center;
+}
+
+.footer-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.footer-wrap__nav__list {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.footer-wrap__head {
+  width: 270px;
+}
+.footer-wrap__head img {
+  width: 100%;
+}
+.footer-wrap__nav__list__item a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-family: "Bebas Neue", sans-serif;
+  line-height: 1.375rem;
+}
+
+.footer-wrap__logo {
+  width: 4rem;
+}
+
+.footer-wrap__logo img {
+  display: block;
+  width: 100%;
+}
+
+.footer-wrap__copylight {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+.header {
+  position: relative;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1000;
+}
+
+.header-wrap__logo {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  z-index: 1100;
+}
+
+.header-wrap__nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header-wrap__nav__list {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-wrap__nav__list__list a {
+  color: #fff;
+  text-decoration: none;
+}
+.header-wrap__nav__logo {
+  width: 50px;
+}
+.header-wrap__nav__logo img {
+  display: block;
+  width: 100%;
+}
+
+/* =========================
+  ハンバーガー基本
+========================= */
+.hamburger {
+  display: none;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  z-index: 1100;
+  padding: 0;
+}
+
+.hamburger span {
+  position: absolute;
+  left: 50%;
+  width: 2rem;
+  height: 0.125rem;
+  background-color: #fff;
+  transform: translateX(-50%);
+  transition:
+    transform 0.3s,
+    opacity 0.3s,
+    top 0.3s;
+}
+
+.hamburger span:nth-child(1) {
+  top: 0.875rem;
+}
+
+.hamburger span:nth-child(2) {
+  top: 1.4375rem;
+}
+
+.hamburger span:nth-child(3) {
+  top: 2rem;
+}
+
+/* 開いた時 */
+.hamburger.active span:nth-child(1) {
+  top: 1.4375rem;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  top: 1.4375rem;
+  transform: translateX(-50%) rotate(-45deg);
+}
+
+body.menu-open {
+  overflow: hidden;
+}
+/* 初期状態 */
+.js-flowup {
+  opacity: 0;
+  transform: translateY(40px) scale(0.98);
+  -webkit-filter: blur(6px);
+  filter: blur(6px);
+  transition:
+    opacity 0.9s ease,
+    transform 0.9s ease,
+    -webkit-filter 0.9s ease;
+  transition:
+    opacity 0.9s ease,
+    transform 0.9s ease,
+    filter 0.9s ease;
+  transition:
+    opacity 0.9s ease,
+    transform 0.9s ease,
+    filter 0.9s ease,
+    -webkit-filter 0.9s ease;
+  will-change: transform, opacity, filter;
+}
+
+/* 表示時 */
+.js-flowup.is-show {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+
+/* 少し遅らせたい時 */
+.js-flowup.delay-1 {
+  transition-delay: 0.15s;
+}
+.js-flowup.delay-2 {
+  transition-delay: 0.3s;
+}
+.js-flowup.delay-3 {
+  transition-delay: 0.45s;
+}
+.slidein-left {
+  opacity: 0;
+  transform: translateX(-80px);
+  -webkit-filter: blur(6px);
+  filter: blur(6px);
+  transition:
+    opacity 0.9s ease,
+    transform 0.9s ease,
+    -webkit-filter 0.9s ease;
+  transition:
+    opacity 0.9s ease,
+    transform 0.9s ease,
+    filter 0.9s ease;
+  transition:
+    opacity 0.9s ease,
+    transform 0.9s ease,
+    filter 0.9s ease,
+    -webkit-filter 0.9s ease;
+}
+
+.slidein-left.is-show {
+  opacity: 1;
+  transform: translateX(0);
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+@media screen and (max-width: 800px) {
+  .hamburger {
+    margin-right: 5px;
+    display: block;
+  }
+
+  .header-wrap__nav {
+    position: fixed;
+    top: 0;
+    right: -110%;
+    width: 100vw;
+    height: 100vh;
+    background-color: #36454f;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transition: right 0.3s ease;
+    z-index: 1050;
+  }
+
+  .header-wrap__nav.active {
+    right: 0;
+  }
+
+  .header-wrap__nav__list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .header-wrap__nav__list__list a {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  .header-wrap__nav__logo {
+    width: 4rem;
+  }
+  .header-wrap__nav__logo img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 540px) {
+  .header-wrap__logo__txt {
+    width: 120px;
+    padding: 5px 0;
+  }
+}

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.policy-wrap {
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+.policy-wrap__body {
+  margin: 0 auto;
+  max-width: 764px;
+  width: 95%;
+}
+.policy-wrap__body__txt {
+  line-height: 1.8;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+.policy-wrap__body__head {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.policy-wrap__body__link a {
+  color: #fff;
+}
+@media screen and (max-width: 540px) {
+  .policy-wrap__body__txt {
+    font-size: 14px;
+  }
+  .policy-wrap__body__head {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}

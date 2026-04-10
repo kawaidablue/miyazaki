@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+.top-wrap {
+  width: 100%;
+  background-color: #2e2e2e;
+  position: relative;
+}
+.top-wrap__title {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+.top-wrap__title h1 ::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.15) 60%,
+    rgba(0, 0, 0, 0.45) 100%
+  );
+  pointer-events: none;
+  bottom: clamp(0.5rem, 0.0875rem + 1.2222vw, 1.1875rem);
+}
+.top-wrap__title h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 13.9vw;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  line-height: 0.85;
+}
+.top-wrap__title-main {
+  color: #000000;
+}
+.top-wrap__title-accent {
+  color: #90c248;
+}
+.top-wrap__hero {
+  margin-top: clamp(-1.3125rem, -0.0125rem + -1.4444vw, -0.5rem);
+  background-image: url(../img/top_back.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+}
+.top-wrap__ttl {
+  text-align: center;
+  padding: 100px 0 60px 0;
+  font-size: clamp(1.25rem, 0.2188rem + 3.75vw, 2rem);
+  font-weight: bold;
+  letter-spacing: 0.25rem;
+}
+.top-wrap__bg {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 450px;
+  z-index: 1;
+  background-color: #000000;
+}
+.top-wrap__content {
+  position: relative;
+  z-index: 999;
+}
+.top-wrap__flex {
+  width: 95%;
+  gap: 30px;
+  align-items: flex-end;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  z-index: 999;
+  max-width: 1000px;
+}
+.top-wrap__img {
+  width: 50%;
+}
+.top-wrap__img img {
+  width: 100%;
+}
+.top-wrap__text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.top-wrap__name-en {
+  color: #90c248;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 54px;
+}
+.top-wrap__name-ja {
+  font-size: 25px;
+  line-height: 36px;
+}
+.top-wrap__position {
+  font-size: 13px;
+  font-weight: bold;
+}
+.top-wrap__desc p {
+  font-size: 15px;
+  line-height: 36px;
+  letter-spacing: 0.08rem;
+}
+.spot-wrap {
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.spot-wrap__body {
+  display: flex;
+  gap: 30px;
+  width: 95%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.spot-wrap__article__ttl {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 70px;
+}
+.spot-wrap__article__ttl h3 {
+  font-size: clamp(1.375rem, 0.1719rem + 4.375vw, 2.25rem);
+  font-weight: bold;
+  letter-spacing: 0.17rem;
+  line-height: 1.5;
+}
+.spot-wrap__body__txt {
+  width: 45%;
+}
+.spot-wrap__body__img {
+  width: 55%;
+}
+.spot-wrap__body__img img {
+  width: 100%;
+}
+.spot-wrap__body__txt p {
+  line-height: 2;
+  letter-spacing: 0.08rem;
+  font-size: 16px;
+}
+.spot-wrap__bodyonly__txt {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 95%;
+  line-height: 2;
+  margin-bottom: 100px;
+}
+.spot-wrap__bodyonly__img {
+  width: 100%;
+}
+.spot-wrap__bodyonly__img img {
+  width: 100%;
+}
+.spot-wrap__article:nth-child(3) .spot-wrap__body,
+.spot-wrap__article:nth-child(5) .spot-wrap__body {
+  flex-direction: row-reverse;
+}
+@media screen and (max-width: 1000px) {
+  .spot-wrap__body {
+    flex-direction: column-reverse;
+  }
+  .spot-wrap__body__txt {
+    width: 100%;
+  }
+  .spot-wrap__body__img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .spot-wrap__article:nth-child(3) .spot-wrap__body,
+  .spot-wrap__article:nth-child(5) .spot-wrap__body {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 950px) {
+  .top-wrap__flex {
+    gap: 10px;
+    align-items: flex-end;
+  }
+  .top-wrap__desc p {
+    font-size: 13px;
+    line-height: 26px;
+  }
+  .top-wrap__bg {
+    height: 380px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .top-wrap__flex {
+    flex-direction: column;
+  }
+  .top-wrap__img {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .top-wrap__text {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .top-wrap__ttl {
+    padding: 60px 0 30px 0;
+  }
+  .top-wrap__flex {
+    gap: 40px;
+  }
+  @media screen and (max-width: 540px) {
+    .spot-wrap__body__img {
+      width: 100%;
+    }
+    .spot-wrap__article__ttl {
+      margin-bottom: 30px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.sub__ttl {
+  font-size: clamp(1.25rem, 0.2188rem + 3.75vw, 2rem);
+  padding: 120px 0;
+  line-height: 1.2;
+  background-image: url(../img/top_back.svg);
+  margin-bottom: 60px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sub_ttl h2 {
+  max-width: 764px;
+  margin: 0 auto;
+}
+.sub__ttl span {
+  font-size: clamp(2rem, 0.8824rem + 2.3529vw, 3rem);
+}
+@media screen and (max-width: 540px) {
+  .sub__ttl {
+    padding: 80px 0;
+  }
+}

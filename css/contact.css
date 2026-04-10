@@ -1,0 +1,1005 @@
+@charset "UTF-8";
+.contact-wrap {
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+.contact-wrap__form {
+  max-width: 764px;
+  width: 95%;
+  margin: 120px auto;
+  box-sizing: border-box;
+  color: #ffffff;
+  align-items: center;
+}
+.contact-wrap__form__group {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+/* 入力系（共通） */
+.contact-wrap__form input[type="text"],
+.contact-wrap__form input[type="email"],
+.contact-wrap__form textarea {
+  width: 100%;
+  border: none;
+  padding: 18px 14px;
+  line-height: 1.8;
+  border: 2px solid #90c248;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.06) inset,
+    0 2px 10px rgba(0, 0, 0, 0.15);
+  outline: none;
+  background-color: #fff;
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #c3c59e; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-webkit-input-placeholder,
+.contact-wrap__form textarea::-webkit-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-moz-placeholder,
+.contact-wrap__form textarea::-moz-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input:-ms-input-placeholder,
+.contact-wrap__form textarea:-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::-ms-input-placeholder,
+.contact-wrap__form textarea::-ms-input-placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+.contact-wrap__form input::placeholder,
+.contact-wrap__form textarea::placeholder {
+  color: #aaa; /* 薄グレーで見やすく */
+}
+
+/* テキストエリアをそれっぽく */
+.contact-wrap__form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+
+/* 同意チェックなど横並びにしたい時のユーティリティ（必要なときに使う） */
+.contact-wrap__form .is-inline {
+  grid-column: 1 / -1; /* 2カラムをまたぐ */
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #000000;
+  font-size: 13px;
+}
+
+/* 送信ボタン（中央・角丸・白枠） */
+.contact-wrap__form__submit {
+  font-size: 18px;
+  display: block; /* inline-block ではなく block に */
+  margin: 60px auto 40px auto; /* 左右自動で中央寄せ */
+  min-width: 240px;
+  padding: 14px 28px;
+  background: #ffffff;
+  color: #000000;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    transform 0.08s ease,
+    box-shadow 0.2s ease,
+    opacity 0.2s ease;
+}
+.required {
+  display: inline-block;
+  color: #dd0000;
+  margin-left: 5px;
+}
+.contact-wrap__form__submit:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.45);
+}
+.contact-wrap__form__submit:active {
+  transform: translateY(0);
+  opacity: 0.9;
+}
+.check-group {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.checkboxtxt {
+  font-size: 16px;
+  line-height: 1.8;
+}
+.checkboxinput a {
+  color: #fff;
+}
+
+.contact-wrap__form__group label {
+  min-width: 180px; /* 左のラベル幅を固定 */
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+}
+input[type="checkbox" i] {
+  background-color: initial;
+  cursor: default;
+  -webkit-appearance: auto;
+  -moz-appearance: auto;
+  appearance: auto;
+  box-sizing: border-box;
+  margin: 3px 3px 3px 4px;
+  padding: initial;
+  border: initial;
+}
+.contact-wrap__form__submit {
+  background: #90c248;
+  color: #000;
+  padding: 16px 60px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 30px;
+  transition: 0.3s;
+}
+
+.contact-wrap__form__submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(144, 194, 72, 0.4);
+}
+.contact-wrap__form input,
+.contact-wrap__form textarea {
+  width: 100%;
+  padding: 14px;
+  background: #ffffff;
+  color: #000000;
+  border-radius: 6px;
+  transition: 0.3s;
+  border: 2px solid #90c248;
+}
+
+.contact-wrap__form input:focus,
+.contact-wrap__form textarea:focus {
+  border-color: #90c248;
+  box-shadow: 0 0 0 2px rgba(144, 194, 72, 0.2);
+}
+.checkboxinput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+.checkboxinput span {
+  white-space: nowrap;
+}
+@media screen and (max-width: 540px) {
+  .contact-wrap__form__group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contact-wrap__form input[type="text"],
+  .contact-wrap__form input[type="email"],
+  .contact-wrap__form textarea {
+    width: 92%;
+  }
+  .checkboxtxt {
+    font-size: 14px;
+  }
+  .checkboxinput span {
+    font-size: 14px;
+  }
+}
