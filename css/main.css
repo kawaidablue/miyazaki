@@ -290,7 +290,7 @@ body.menu-open {
   transition-delay: 0.3s;
 }
 .js-flowup.delay-3 {
-  transition-delay: 0.45s;
+  transition-delay: 0.8s;
 }
 .slidein-left {
   opacity: 0;
